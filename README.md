@@ -1,8 +1,12 @@
 # Fishdraw (Python)
 
 A small, dependency-free procedural fish drawing engine inspired by the linked
-fishdraw project. It creates plotter-friendly SVG made from polylines. A seed
-produces a repeatable drawing.
+fishdraw project. It creates plotter-friendly SVG made from polylines, with a
+coherent-noise body contour, curved fins attached to the body, fin rays, gill
+plate and slits, a detailed eye and mouth, and a seeded choice of scales, bars,
+or spots. The generator borrows the reference's layered body curves, seeded
+variation, and anatomy-driven fin construction. A seed produces a repeatable
+drawing.
 
 ## Generate an SVG
 
